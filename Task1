@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Rushi Hotels - Welcome to Comfort and Luxury</title>
+  <style>
+    /* Basic styling */
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f2f2f2;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    /* Header styling */
+    header {
+      background-color: #222;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2em;
+      margin: 0;
+    }
+
+    /* Main content styling */
+    main {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 20px;
+      padding: 20px;
+    }
+
+    .section {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 5px;
+    }
+
+    .section h2 {
+      font-size: 1.5em;
+      margin-bottom: 10px;
+    }
+
+    .section p {
+      line-height: 1.5;
+    }
+
+    /* Footer styling */
+    footer {
+      background-color: #222;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Rushi Hotels</h1>
+    <p>Experience Unforgettable Hospitality</p>
+  </header>
+
+  <main>
+    <section class="section">
+      <h2>Welcome to Rushi Hotels</h2>
+      <p>Rushi Hotels offer a perfect blend of comfort, luxury, and personalized service. Whether you're traveling for business or pleasure, our hotels provide the ideal setting to relax and unwind.</p>
+      <a href="#">Explore Our Hotels</a>
+    </section>
+
+    <section class="section">
+      <h2>Our Services</h2>
+      <ul>
+        <li>Luxurious accommodations</li>
+        <li>World-class amenities</li>
+        <li>Exceptional dining experiences</li>
+        <li>Personalized service</li>
+        <li>Convenient locations</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>Special Offers</h2>
+      <p>Enjoy exclusive discounts and packages at our hotels. Check out our latest offers!</p>
+      <a href="#">View Offers</a>
+    </section>
+
+    <section class="section">
+      <h2>Testimonials</h2>
+      <p>"Rushi Hotels exceeded my expectations. The staff was friendly and helpful, the room was clean and comfortable, and the amenities were top-notch. I highly recommend this hotel!"</p>
+      <p>- John Doe</p>
+      <p>"My stay at Rushi Hotels was truly memorable. The location was perfect, the food was delicious, and the service was impeccable. I will definitely be back!"</p>
+      <p>- Jane Smith</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Rushi Hotels. All rights reserved.</p>
+  </footer>
+</body>
+
+</html>
